@@ -10,9 +10,9 @@ public class Main {
         CCuenta a;
         double saldoA;
         int f = 0;
-        if (f==9) {
-            System.out.println("Prueba de Git");
-        }
+        //if (f==9) {
+        //    System.out.println("Prueba de Git");
+        //}
         a = new CCuenta("Felipe Segundo","2222-2222-22-1230456789", 2222,0);
         saldoA = a.estado();
         System.out.println("El saldo actual es"+ saldoA );
